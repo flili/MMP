@@ -1,0 +1,31 @@
+
+body{
+	background-color: #393E40;
+	font-family: arial, sans-serif;
+	line-height: 1.5;
+	margin-left: 10%;
+	margin-right: 10%;
+	color:white;
+}
+h1{
+	font-size: 80px;
+	text-align:center;
+	background-color: #0C7CA8;
+	padding: 60px;
+	color:black;
+	border-bottom: 30px solid white;
+
+}
+li{
+	color:white;
+}
+a{
+	color:yellow;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+
+}
