@@ -1,0 +1,31 @@
+
+body{
+	background-color: #A1D490;
+	font-family: arial, sans-serif;
+	line-height: 1.5;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: black;
+}
+h1{
+	font-size: 70px;
+	text-align:center;
+	background-color: #474009;
+	padding: 60px;
+	color:orange;
+	border-bottom: 30px solid green;
+}
+h2{
+	color: #961846;
+	border-bottom: 2.5px solid #961846;
+}
+p{
+	line-height: 1.0;
+	font-size: 120%;
+}
+li{
+	font-size: 20px;
+}
+strong{
+	font-size: 10;
+}

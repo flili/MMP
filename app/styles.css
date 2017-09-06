@@ -1,0 +1,80 @@
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+.carousel-caption{
+	background-color: #000;
+	opacity: 0.98;
+}
+.jumbotron{
+	background-color: #000;
+}
+.item{
+	background-image: url(img/bk.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000;
+}
+h1{
+	font-family: 'Alex Brush', cursive;
+	font-size: 6em;
+}
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+}
+.map{
+	text-align: center;
+}
+.info {
+	margin:0 auto;
+	padding: 30px;
+	width: 70%;
+	height: 70%;
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.95;
+}
+.info2{
+	margin:0 auto;
+	padding: 30px;
+	width: 70%;
+	height: 80%;
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.95;
+}
+.info3 {
+	margin:0 auto;
+	padding: 30px;
+	width: 70%;
+	height: 60%;
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.95;
+}
+.download{
+	background-image: url(img/bk.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000;
+}

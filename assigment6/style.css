@@ -1,0 +1,47 @@
+body{
+	font-family:Helvetica, Arial, Sans-Serif;
+	background-color:black;
+	background-image: url(images/K_F.jpg);
+	background-size: cover;
+}
+#container{
+	width: 700px;
+	margin: 0 auto;
+	background-color: black;
+	height: 1000px;
+	color:#991f10;
+}
+footer{
+	background-image:url(images/bam_logo.gif);
+	height:138px;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #991f10;
+	color:white;
+}
+img{
+	display: block;
+	margin:0 auto;
+}
+nav{
+	text-align: center;
+	padding: 20px 0;
+}
+a{
+	/*text-decoration: none;*/
+	color: #fba71f;
+	font-size: 1.3em;
+	font-weight: none;
+}
+h4{
+	color:#fba71f;
+}
+h3{
+	color:red;
+}
+blockquote{
+	font-family: Courier New, American Typer;
+	color:white;
+	font-size: 25;
+}
+.changeColor
