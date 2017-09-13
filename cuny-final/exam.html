@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<title></title>
+</head>
+<body>
+
+
+<ul class="grid effect-2">
+	<li>
+		<figure>
+    		<img src="img/coll/bmcc.jpg" alt="">
+   			<figcaption>
+        <h3>Image title</h3>
+        <span>Image Caption</span>
+        <a href="#" class="close-caption hidden">x</a>
+    		</figcaption>
+		</figure>
+	</li>
+	<li>
+		<figure>
+			<img class="img-responsive" src="img/coll/bronxcc.jpg"" alt="img01">
+			<figcaption>
+				<h3>Camera</h3>
+				<span>Jacob Cummings</span>
+				<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+			</figcaption>
+		</figure>
+	</li>
+	<!-- ... -->
+</ul>
+</div>
+
+<style type="text/css">
+figure {
+    margin: 0;
+    position: relative;
+}
+figure img {
+    display: block;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+}
+figure figcaption {
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+figure h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+figure span {
+    color: #b2cce1;
+    display: block;
+    line-height: 1.2;
+}
+figure a.close-caption {
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #315a7d;
+}
+figure a.close-caption.hidden {
+    display: none
+}
+#effect-2 a.close-caption {
+    top: 10px;
+    right: 10px;
+}
+#effect-2 figure figcaption {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: steelblue;
+    text-align: center;
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+    transition: all 0.5s;
+}
+#effect-2 figure figcaption h3 {
+    margin-top: 150px
+}
+#effect-2 figure img {
+    backface-visibility: hidden;
+    transition: all 0.5s;
+}
+.no-touch #effect-2 figure:hover img,
+#effect-2 figure.hover img {
+    transform: rotateY(180deg);
+}
+.no-touch #effect-2 figure:hover figcaption,
+#effect-2 figure.hover figcaption {
+    transform: rotateY(0);
+}
+
+</style>
+
+
+<script type="text/javascript">
+	(function(window){
+
+    // check for touch
+    if (Modernizr.touch) {
+
+        // run the forEach on each figure element
+        [].slice.call(document.querySelectorAll("figure")).forEach(function(el,i){
+
+            // get close-caption button in variable
+            var closeCaption = el.querySelector(".close-caption");
+
+            // show the close-caption button
+            classie.remove(closeCaption,"hidden");
+
+            // check if the user moves a finger
+            var fingerMove = false;
+            el.addEventListener("touchmove",function(e){
+                e.stopPropagation();
+                fingerMove = true;
+            });
+
+            // always reset fingerMove to false on touch start
+            el.addEventListener("touchstart",function(e){
+                e.stopPropagation();
+                fingerMove = false;
+            });
+
+            // add hover class if figure touchend and fingerMove is false
+            el.addEventListener("touchend",function(e){
+                e.stopPropagation();
+                if (fingerMove == false) {
+                    classie.add(el,"hover");
+                }
+            });
+
+            // if close-caption button clicked, remove hover class
+            closeCaption.addEventListener("touchend",function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if (fingerMove == false) {
+                    if (classie.has(el,"hover")) {
+                        classie.remove(el,"hover");
+                    }
+                }
+            });
+
+        });
+
+    }
+
+})(window);
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

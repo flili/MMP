@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<!--mobile responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Others In Art</title>
+<!--Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/slide-style.css">
+        
+<!-- fonts from google -->
+        <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+    <body>
+<!-- open tag container -->
+        <div class="container">
+<!-- Navegation Bar -->
+            <nav>
+                <ul class="top-nav" id="my-top-nav">
+                    <li><a class="logo" href="index.html">ART</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="icon"><a href="javascript:void(0);" style="font-size:2.25em;" onclick="myFunction()" >&#9776;</a></li>
+                </ul>
+            </nav>
+            
+            <div class="info1">
+            <h2>The Others In Art</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere efficitur pharetra. Vestibulum magna diam, lobortis eget massa eu, tincidunt pulvinar libero. Aenean diam odio, imperdiet a aliquet at, elementum vel nulla. Phasellus dignissim, velit eget tristique hendrerit, lorem odio lacinia risus, non tempus ligula nunc vitae nunc.</p>
+        </div>
+<!-- image first to scroll down -->
+       <div class="scroll">
+            <div class="carousel-outer">
+
+                <div class="carousel-inner">
+                    <img src="wilfredo-lam/1.jpg" alt="red" class="img-show">
+                    <img src="wilfredo-lam/2.jpg" alt="green" class="img-hide">
+                    <img src="images/1.jpg" alt="green" class="img-hide">
+
+
+                    
+                </div><!-- end of inner carousel -->
+            </div><!-- end of outer carousel -->
+        </div>
+        
+        <div class="info">
+        <h2>Our Artists</h2>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/adjaye1.jpg" alt="artist" /><p class="image-caption">David Adjaye <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/aiweiwei.jpg" alt="artist" /><p class="image-caption">Ai Wei Wei <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img src="images/almathomas.jpg" alt="artist" /><p class="image-caption">Alma Thomas <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img src="images/ana-mendieta1.jpg" alt="artist" /><p class="image-caption">Ana Mendieta <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img src="images/burks1.jpg" alt="artist" /><p class="image-caption">Stephen Burks <a href="#">More info.</a></p>
+        </div> 
+        <div class="ima-text">
+            <img src="images/carrie1.jpg" alt="artist" /><p class="image-caption">Carrie Mae Weems <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img src="images/chris.jpg" alt="artist" /><p class="image-caption">Chris Ofili <a href="#">More info.</a></p>
+        </div> 
+        <div class="ima-text">
+            <img src="images/jacob-lawrence1.jpg" alt="artist" /><p class="image-caption">Jacob Lawrance <a href="#">More info.</a></p>
+        </div> 
+        <div class="ima-text">
+            <img src="images/kara-walker.jpg" alt="artist" /><p class="image-caption">Kara Walker <a href="#">More info.</a></p>
+        </div>
+        <div class="ima-text">
+            <img src="images/Lam.jpg" alt="artist" /><p class="image-caption">Wilfredo Lam <a href="artist.html">More info.</a></p>
+        </div> 
+        <div class="ima-text">
+            <img src="images/Wangechi-Mutu.jpg" alt="artist" /><p class="image-caption">Wangechi Mutu <a href="#">More info.</a></p>
+        </div>
+        
+            </div><!-- end of info -->   
+        </div><!-- end of container -->
+<!--end body tag-->
+        <!-- javascript/jquery -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/slide-auto.js"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("my-top-nav");
+                if (x.className === "top-nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "top-nav";
+                }
+            }
+        </script>
+    </body>
+</html>

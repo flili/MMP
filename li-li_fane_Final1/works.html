@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<!--mobile responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Others In Art</title>
+<!--Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/slide-style.css">
+        
+<!-- fonts from google -->
+        <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+    <body>
+<!-- open tag container -->
+        <div class="container">
+<!-- Navegation Bar -->
+            <nav>
+                <ul class="top-nav" id="my-top-nav">
+                    <li><a class="logo" href="index.html">ART</a></li>
+                    <li><a class="active" href="#home">home</a></li>
+                    <li><a href=works.html>works</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+                </ul>
+            </nav>
+<!-- END of Navegation Bar -->
+        </div><!-- END of container -->
+        
+        <div class="info1">
+            <h2>The Others In Art Gallery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere efficitur pharetra. Vestibulum magna diam, lobortis eget massa eu, tincidunt pulvinar libero.</p>
+        </div>
+<!-- image first to scroll down -->
+       <div class="scroll">
+            <div class="carousel-outer">
+                <div class="carousel-inner">
+                    <img src="images/1.jpg" alt="red" class="img-show">
+                    <img src="images/2.jpg" alt="green" class="img-hide">
+                    <img src="images/3.jpg" alt="green" class="img-hide">
+                    <img src="images/4.jpg" alt="green" class="img-hide">
+                    <img src="images/5.jpg" alt="green" class="img-hide">
+                    <img src="images/6.jpg" alt="green" class="img-hide">
+                    <img src="images/7.jpg" alt="green" class="img-hide">
+                    <img src="images/8.jpg" alt="green" class="img-hide">
+                    <img src="images/9.jpg" alt="green" class="img-hide">
+                    
+                </div><!-- end of inner carousel -->
+                
+            </div><!-- end of outer carousel -->
+        </div>
+        <div class="info">
+        <h2>Artists Works</h2>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/1.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/2.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/3.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/4.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/5.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/6.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/7.jpg" alt="artist" />
+        </div>
+        <div class="ima-text">
+            <img class="image-responsive" src="images/8.jpg" alt="artist" />
+        </div>
+        </div>
+        
+<!--END body tag-->
+        <!-- javascript/jquery -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/slide-auto.js"></script>
+        <!--Nav bar-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("my-top-nav");
+                if (x.className === "top-nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "top-nav";
+                }
+            }
+        </script>
+    </body>
+</html>

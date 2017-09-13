@@ -1,0 +1,29 @@
+body{
+    font-family: "Times New Roman", Georgia, Serif;
+	background-color: black;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+
+}
+h1{
+    text-decoration: underline;
+	color: #ff0000;
+	padding: 70px;
+    font-size: 250%;
+
+}
+h2{
+	color: #00ff00;
+	padding: 70px;
+	font-size: 200%;
+}
+p{
+	border-style: solid;
+	border-color: white;
+	color: #0000ff;
+	font-size: 100%;
+    margin: 100px 150px 100px 80px;
+}

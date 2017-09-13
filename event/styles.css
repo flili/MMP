@@ -1,0 +1,171 @@
+.headerImg{
+	text-align: center;
+	background-image: url(img/banner2-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3%;
+}
+.logo{
+	text-align: center;
+}
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h1, h2, h3{
+	font-family: 'Rouge Script', cursive;
+}
+header h1{
+	text-align:right;
+	font-size:3em;
+	padding:120px 60px 0 0;
+}
+body.lineup{
+	background-image: url(img/bk/lineup.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.ticket{
+	background-image: url(img/bk/ticket9.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.index{
+	background-image: url(img/bk/index1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.contact{
+	background-image: url(img/bk/contact.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.about{
+	background-image: url(img/bk/about.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.merch{
+	background-image: url(img/bk/clothes.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+body.news{
+	background-image: url(img/bk/news.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+.caption{
+	color: #FFFFFF;
+}
+.tickt{
+	background-color: #000000;
+	color: white;
+	opacity: 0.95;
+	text-align: center;
+}
+.select{
+	text-align: left;
+}
+h1{
+	text-align:right;
+	font-size:3em;
+	padding: 0 0;
+}
+h1{
+	font-size: 7.0em;
+}
+h2{
+	font-size: 6.5em;
+	color: #FFF;
+}
+h3
+{
+	font-size: 3.0em; 
+}
+strong{
+	font-size: 2.0em;
+}
+header{
+	position:center;
+	padding: 0px;
+}
+.jumbotron{
+	background-color: #000;
+	opacity: 0.95;
+}
+.inf{
+	background-color: #000;
+	opacity: 0.95;
+	margin: 0.5%;
+	padding: 20px;
+	color: #FFF;
+}
+.words{
+	color: #000;
+	background-color: #FFF;
+	font-family: 'Open Sans Condensed';
+	opacity: 0.7;
+
+}
+.words h2{
+	font-size: 3.0em;
+	color: #000;
+	font-family: 'Open Sans Condensed';
+	text-align: center;
+	text-decoration:underline;
+}
+.words p{
+	font-size:1.5em;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+.words col-md-6{
+	margin-top: 200px;
+	padding: 200%;
+	color: #000;
+
+}
+.title{
+	color: #FFF;
+}
+.title2 h2{
+	color: #C3F409;
+}
+.title3 h2{
+	color: #000;
+}
+.n{
+	background-color: #000;
+	padding: 10%;
+	color: #FFF;
+	opacity: 0.95;
+
+}
+.video{
+	text-align: center;
+	background-color: #000;
+}

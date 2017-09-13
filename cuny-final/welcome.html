@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<title>CUNY Design Programs</title>
+</head>
+
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="containernav">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">   
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>      
+            </button>
+            <a href="welcome.html" class="navbar-brand">CUNY Design Programs</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Schools<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="2-year.html">2-year Schools</a></li>
+                        <li><a href="4-year.html">4-year Schools</a></li>
+                        <li><a href="location.html">Schools by Borough</a></li>
+                    </ul>
+                </li>
+                <li><a href="degrees.html">Degrees</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                
+            </ul>
+<!--/*log in*/!-->
+
+<div class="social pull-right">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+
+<div class="col-md-6 col-md-offset-3">
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/avatar.png" alt="Avatar" class="img-circle" width="100">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </div><!--close container for navbar-->
+</nav>
+
+
+<!--welcome-->
+<div class="center">
+  <h1>WELCOME</h1>
+  <h2>to CUNY Design Program Information Site</h2>
+<a href="home.html"><button class="buttone" style="vertical-align:middle"><span>ENTER</span></button></a>
+</div>
+<style>
+/*BUTTN ENTER*/
+.buttone {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff8c13;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttone span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttone span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttone:hover span {
+  padding-right: 15px;
+}
+
+.buttone:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
+
+
+<style type="text/css">
+/*WELCOME*/
+html {
+  background-color: #FFFFFF;
+  background: url(img/work.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  line-height: .95;
+  color: #ff8c13;
+  font-weight: 900;
+  font-size: 150px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  color: #ff8c13;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+    height: 10em;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+  
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

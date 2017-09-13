@@ -1,0 +1,165 @@
+/*MODIFY JUST THE H1 (big titles-tranparency)*/
+h1{
+	color:white;
+	/*background-color: #000000;
+	opacity: 0.100;*/
+	margin: auto;
+	background-position: center;
+	position: center;
+	text-align: left;
+	display: inline-table;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+
+}
+h2{
+	color:white;
+	/*background-color: #000000;
+	opacity: 0.100;*/
+	margin: auto;
+	background-position: center;
+	position: center;
+	text-align: left;
+	display: inline-table;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+
+}
+h3{
+	color:white;
+	/*background-color: #000000;
+	opacity: 0.100;*/
+	margin: auto;
+	background-position: center;
+	position: center;
+	text-align: left;
+	display: inline-table;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+/**MODIFY THE IMAGE ON THE BACKGROUND*/
+body{
+	background-image: url(img/5.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*(HIDE THE SUB CONTENT OF THE PLACES AND DONT SHOW IT)*/
+nav ul ul{
+	display: none;
+	margin: 0;
+}
+/*IF YOU PASS THE MOUSE ON PLACES IS SHOW THE CONTENT(VERTICAL)*/
+nav ul li:hover > ul{
+	display: block;
+}
+/*DISPLAY THE CONTENT OF PLACES AND BACKGROUND COLOR BLACK(VERTICAL)*/
+nav ul{
+	background: #000000;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after{
+	content: "";
+	clear:both;
+	display: block; 
+}
+/*DISPLAY THE NAVBAR HORIZONTAL WAY*/
+nav ul li{
+	float: left;
+}
+/*IF YOU PASS THE MOUSE ON ANY WORD OF THE NAVBAR IT WILL BE CHANGE COLOR TO BLACK TO MARRON*/
+nav ul li:hover{
+	background:#800000;
+	display: block;
+}
+/*ANY WORD SELECTED WILL CHANGE TO MARRON BACKGROUND AND WHITE LETTER ON NAVBAR*/
+nav ul li:hover a{
+	color:#FFFFFF;
+	display: block;
+}
+/*SEPARATE THE WORDS ON THE NAVBAR AND HAVE SPACE BTW.*/
+nav ul li a{
+	margin: auto;
+	display: block;
+	padding: 15px 145px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/*MODIFY THE CONTENT ON PLACES ON NAVBAR*/
+nav ul ul{
+	background: #000000;
+	position: absolute; top: 100%;
+}
+/*PUT IN VERTICAL LIST THE CONTENT OF PLACES.*/
+nav ul ul li {
+		float: none; 
+		position: relative;
+}
+nav ul ul li a {
+	padding: 15px 115px;
+	color: #FFFFFF;
+}
+*nav ul ul li a:hover {
+	background: #800000;
+	display: block;
+}
+/*MODIFY EVERY PARAGRAPH*/
+p{
+	color:#FFFFFF;
+	background-color: #000000;
+	opacity: 0.70;
+	margin: auto;
+	background-position: center;
+	position: center;
+	text-align: left;
+	display: inline-table;
+	font-size: 20px;
+}
+#right {
+    float:right;
+    width:800px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.80;
+    padding: 25px;
+    margin: 25px;
+}
+footer{
+	clear:both;
+	opacity: 100;
+	padding: 20px 0;
+	height:50px;
+	color:white;
+	text-align: center;
+}
+#Left{
+	width: 100px;
+	float: left;
+	text-align: center;
+
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
